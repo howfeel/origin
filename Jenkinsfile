@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'jenkins-slave' }
   parameters{
-      string(defaultValue: "maintainer",
+      string(defaultValue: "newbranch",
              description: 'Enter user role:', name: 'userRole')
              }
   stages {
